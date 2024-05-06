@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
+
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="../assets/js/custom.js"></script>
+	<title>LAB EXAM!</title>
+</head>
+<style>
+      /* Add CSS styles here */
+      .tutorial-background {
+          transition: transform 0.3s ease-in-out; /* Add a transition for smooth movement */
+      }
+      .tutorial-background:hover {
+          transform: translateY(-10px); /* Push up 10px when hovered */
+      }
+     /* Add CSS styles here */
+     .service-background {
+            transition: transform 0.3s ease-in-out; /* Add a transition for smooth movement */
+        }
+        .service-background:hover {
+            transform: translateY(-10px); /* Push up 10px when hovered */
+        }
+           /* Add CSS styles here */
+           .mission-vision-section {
+            transition: transform 0.3s ease-in-out; /* Add a transition for smooth movement */
+        }
+        .mission-vision-section:hover {
+            transform: translateY(-10px); /* Push up 10px when hovered */
+        }
+</style>
+<body>
+  <div class="spinner-wrapper d-flex justify-content-center align-items-center" id="loader">
+    <div class="spinner-border text-light" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+  <header class="hero-background"style="">
+    <nav class=" autohide navbar navbar-expand-lg navbar-dark nav-color px-3">
+      <div class="container-fluid">
+        <div class=" d-flex col text-center justify-content-start align-items-center">
+          <a class="navbar-brand h1 website-brand pe-3 border-end text-center" href="#">Roberto Dela Peña</a>
+          <div class="col-md  d-flex text-center align-items-center">
+            <a href="" class=" d-flex text-black me-4">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="" class=" d-flex text-white me-4">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="" class=" d-flex text-white me-4">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" collapse navbar-collapse "  id="navbarSupportedContent">
+          <ul class ="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class= "nav-item"> 
+                <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class ="nav-item">
+                <a class="nav-link" href="#about-me-section">ABOUT ME</a>
+            </li>
+            <li class= "nav-item">
+                <a class="nav-link" href="#services-section">SERVICES</a>
+            </li>  
+            <li class= "nav-item">
+              <a class="nav-link" href="#tutorials-section">TUTORIALS</a>
+          </li>  
+            <li class= "nav-item">
+              <a class="nav-link" href="#portfolio-section">PORTFOLIO</a>
+            </li>  
+            <li class= "nav-item">
+                <a class="nav-link" href="#contact-me-section">CONTACT ME</a>
+            </li>     
+          </ul>   
+        </div>     
+      </div>
+    </nav>
+  
+    <div class="container-fluid px-4 py-5 text-center" >
+      <div class="mt-5 pt-5 text-black">
+        <h1 class="display-4 fw-bold fst-italic hero-heading">
+            MiNa'To
+        </h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead">
+            "Miryenda Natin 'to"
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-5 gap-3">Start</button>
+          </div> 
+        </div>
+      </div>
+    </div>
+    
+   
+  </header>
+  <!-- ABOUT ME -->
+	<div class="container-fluid text-center  py-5 container-background" id="about-me-section" >
+		<div class="row" ><br>
+			<div class="col-12 py-5" data-aos="fade-down">
+				<p class="fs-4">Hello, I am</p>
+				<img src="../assets/img/bert.jpg" class="rounded-circle  mx-auto d-block shadow-4-strong portrait-border img-max" alt="" >
+				<h1 class="fw-bolder heading-font">Robert Dela Peña</h1>
+				<hr class="mb-3 "style="width:15%; margin: auto;">
+	 
+				<p class="fw-lighter text-column-margin">Bachelor of Science in Information Technology</p>
+                <p class="fw-lighter text-column-margin">3rd Year Representative of SiTes</p>
+                <p class="fw-lighter text-column-margin">22 Years Old</p>
+                <p class="fw-lighter text-column-margin">100 Compound Pulo, Cabuyao City, Laguna</p>
+                <p class="fw-lighter text-column-margin">3rd Year College from Pamantasan ng Cabuyao</p>
+			</div>
+		</div>
+
+	  <div class="diamond"></div>
+
+<!-- MISSION AND VISION -->
+    <div class="row">
+      <div class="col-12 py-5" data-aos="fade-down">
+          <img src="../assets/img/minato (1).png" class="rounded-circle  mx-auto d-block shadow-2-strong portrait-border img-max" alt="" >
+          <h1 class="fw-bolder heading-font">MISSION</h1>
+          <hr class="mb-3 "style="width:15%; margin: auto;">
+    
+          <p class="fw-lighter text-column-margin">To provide a propitious opportunity to every employee developing their skill and qualification making  a nutritious, quality and totally satisfying home-made healthy cheese roll with balance sweetness and chewy texture that will gratify the consumers and customers; Offering the most affordable price, delicious and the best cheese roll that everyone’s searching for and be recognized as a leading distinctive distributor of home-made cheese roll.</p>
+      </div>
+      <div class="col-12 py-5" data-aos="fade-down">
+
+        <h1 class="fw-bolder heading-font">VISION</h1>
+        <hr class="mb-3 "style="width:15%; margin: auto;">
+  
+        <p class="fw-lighter text-column-margin">We envision a leading and an outstanding brand distributing the very best cheese roll that will develop a community where everyone has an easier access to nutritious and good quality food, understands the importance of cheese for a healthy diet and is committed to creating a stronger and healthier lifestyle.</p>
+    </div>
+    </div>
+  </div>
+
+<!-- SERVICE -->
+	<div class="container-fluid py-5 container-background-dark overflow-hidden " id="services-section" >
+		<div class="row">
+			<div class="col-12 mb-1" data-aos="fade-down"><br>
+				<h1 class="fw-bolder text-center text-light heading-font">SERVICES</h1>
+			</div>
+		</div>
+		<div class="container-fluid" >
+			<div class="row gx-5 gy-5 p-5">
+			  <div class=" col-lg-4" data-aos="fade-down">
+          <div class=" p-3 mb-5 text-center	service-background shadow-lg rounded ">
+            <img src="../assets/img/delivery.png" class=" rounded-3 mx-auto d-block shadow-4-strong services-img-max services-border mb-3" alt="" >
+              <p class="fs-3 text-column-margin fw-normal">Free Delivery</p>
+              <hr class="mb-3 "style="width:15%; margin: auto;">
+              <p class="fw-lighter text-column-margin">"Get your order delivered straight to your doorstep - for free! 🚚🎉"</p>	 
+          </div>
+			  </div>
+			  <div class=" col-lg-4" data-aos="fade-down">
+          <div class=" p-3  mb-5 text-center	service-background shadow-lg rounded ">
+            <img src="../assets/img/design.jpg" class=" rounded-3 mx-auto d-block shadow-4-strong services-img-max services-border mb-3" alt="" >
+              <p class="fs-3 text-column-margin fw-normal">Custom Food Design</p>
+              <hr class="mb-3 "style="width:15%; margin: auto;">
+              <p class="fw-lighter text-column-margin">creating unique and personalized food products that meet the specific needs and preferences of customers.</p>
+          </div>
+			  </div>
+			  <div class=" col-lg-4" data-aos="fade-down">
+          <div class=" p-3  mb-5 text-center	service-background shadow-lg rounded ">
+            <img src="../assets/img/tutor.jpg" class=" rounded-3 mx-auto d-block shadow-4-strong services-img-max services-border mb-3" alt="" >
+              <p class="fs-3 text-column-margin fw-normal">Virtual tutoring and educational services</p>
+              <hr class="mb-3 "style="width:15%; margin: auto;">
+              <p class="fw-lighter text-column-margin">With remote learning becoming more prevalent, there may be a demand for virtual tutoring and educational services that provide personalized and high-quality instruction for students of all ages.</p>	 
+          </div>
+			  </div>
+      </div>
+		</div>
+  </div>
+
+  <!---TUTORIALS-->
+	<div class="container-fluid text-center  py-5 container-background" id="tutorials-section" >
+		<div class="row">
+			<div class="col-12 mb-4" data-aos="fade-down"><br>
+				<h1 class="fw-bolder text-center text-dark heading-font">TUTORIALS</h1>
+			</div>	
+		</div>
+		<div class="container-fluid"> 
+			<div class="row gx-5 gy-5 p-5" >
+				<div class=" col-lg-6" data-aos="fade-down">
+					<div class=" p-3  mb-5 text-center	tutorial-background shadow-lg rounded ">
+						<div class=" p-3 mb-5 text-center text-light  	">
+							<div class="wrapper">
+								<iframe class="tutorial-border" src="https://www.youtube.com/embed/874fYY6A04E" title="How To: Calligraphy &amp; Hand Lettering for Beginners! Tutorial + Tips!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							</div>
+              <p class="fs-3 mt-3 text-column-margin fw-normal">Online Tutoring</p>
+              <hr class="mb-3 "style="width:50%; margin: auto;">
+              <p class="fw-lighter text-column-margin">With remote learning becoming more prevalent, there may be a demand for virtual tutoring and educational services that provide personalized and high-quality instruction for students of all ages.</p>
+						</div>
+					</div>
+				</div>
+				<div class=" col-lg-6" data-aos="fade-down">
+					<div class=" p-3  mb-5 text-center	tutorial-background shadow-lg rounded ">
+						<div class=" p-3 mb-5 text-center text-light">
+							<div class="wrapper">
+								<iframe class="tutorial-border" src="https://www.youtube.com/embed/3_r8chWhatE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+							</div>
+								<p class="fs-3 mt-3 text-column-margin fw-normal">Custom Food Design</p>
+								<hr class="mb-3 mt-3 "style="width:50%; margin: auto;">
+								<p class="fw-lighter text-column-margin">creating unique and personalized food products that meet the specific needs and preferences of customers.</p> 
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>	
+  </div>
+
+  <!---PORTFOLIO-->
+  <div class="container-fluid py-5 container-background-dark" id="portfolio-section">
+    <div class="row"data-aos="fade-down">
+      <div class="col-12 mb-5" ><br>
+        <h1 class="fw-bolder text-center text-light heading-font">PORTFOLIO</h1>
+      </div>
+    </div>
+  <div class="row px-5" data-aos="fade-down">
+    <hr class="mb-3 "style="width:15%; margin: auto;">
+    <p class="fw-lighter text-column-center">In order to provide the best customer service and maintain the high-quality standards of MiNa'To, as an employee, I would need to be knowledgeable about the products and their ingredients, have strong communication and interpersonal skills, and be able to work well in a team environment. I would also need to adhere to health and safety regulations and maintain a clean and organized work environment.</p>
+    </div>
+  </div>
+
+  <!--CONTACT-->
+  <div class="container-fluid container-background px-4" id="contact-me-section">
+    <div class="row">
+      <div class=" p-5 col-md-6 pe-auto">
+        <h2 class="display-4 fw-bold">Contact Us</h2>
+        <p class="mb-5">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta reprehenderit asperiores cumque quibusdam. Maiores, consequuntur possimus tempore aliquid fuga dolore nisi repellat incidunt laborum quo!
+        </p>
+        <ul class="list-unstyled pl-md-5 mb-5 ps-4">
+          <li class="d-flex text-black mb-4">
+            <span class="pe-3">
+              <i class="bi bi-map-fill"></i>
+            </span>
+            Katapatan Homes, Banay-Banay, Cabuyao City, Laguna,
+            <br>
+            Philippines    
+          </li>
+          <li class="d-flex text-black mb-4">
+            <span class="pe-3">
+              <i class="bi bi-pin-map-fill"></i>
+            </span>
+            <div class="">
+              <iframe class="ratio rounded services-border" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4631.825575699794!2d121.12996874017163!3d14.261114475991414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d88258da3383%3A0x3db6c2402700f58f!2sPamantasan%20ng%20Cabuyao!5e0!3m2!1sen!2sph!4v1682577834257!5m2!1sen!2sph" width="300" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </li>
+         
+          <li class="d-flex text-black mb-4">
+            <span class="pe-3">
+              <i class="bi bi-telephone-fill"></i>
+            </span>
+            "+63 920 842 9224"
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-md-6 p-5">
+        <h2 class="display-4 fw-bold">Send me your inquiries!</h2>
+        <p class="mb-5">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta reprehenderit asperiores cumque quibusdam. Maiores, consequuntur possimus tempore aliquid fuga dolore nisi repellat incidunt laborum quo!
+        </p>
+        <form class="mb-5 " method="post" id="contactForm" name="contactForm"
+        novalidate="novalidate" action="#">
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <label for="name" class="col-form-label">Name</label>
+              <input type="text" class="form-control" name="name" id="contact-name">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <label for="email" class="col-form-label">Email</label>
+              <input type="text" class="form-control" name="email" id="contact-email">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-12 form-group">
+              <label for="message" class="col-form-label">Message</label>
+              <textarea class="form-control" name="message" id="contact-message" cols="30" rows="7" required></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <input type="button" value="Send Message" class="btn btn-primary
+              rounded-3 py-2 px-4" id="contact-submit">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div id="messageDisplay">
+
+              </div>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </div>
+      
+
+    </div>
+  </div>
+  <div class="container-fluid footer-color text-light">
+    <footer class="px-5 py-5">
+      <div class="row gy-5">
+         <div class="col-md-4 ">
+            <h6 class="fw-bold fs-4 pb-3">USEFUL LINKS</h6>
+             <ul class="list-unstyled  fw-light">
+              <li class="py-2">
+                <a href="" class="text-decoration-none text-light" >Home</a>
+              </li>
+              <li class="py-2">
+                <a href="" class="text-decoration-none text-light" >About Me</a>
+              </li>
+              <li class="py-2">
+                <a href="" class="text-decoration-none text-light" >Services</a>
+              </li>
+              <li class="py-2">
+                <a href="" class="text-decoration-none text-light" >Tutorials</a>
+              </li>
+              <li class="py-2">
+                <a href="" class="text-decoration-none text-light" >Portfolio</a>
+              </li>
+             </ul>
+         </div>
+         <div class="col-md-4">
+          <h6 class="fw-bold fs-4 pb-4">CONTACTS</h6>
+           <ul class="list-unstyled  fw-light">
+            <li class="d-flex text-white mb-4">
+              <span class="pe-3">
+                <i class="bi bi-telephone-fill"></i>
+              </span>
+              "+63 920 842 9224"
+            </li>
+           </ul>
+       </div>
+       <div class="col-md-4">
+          <h5>Sign up to my newsletter</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, ducimus.</p>
+
+          <div class="col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <label class="form-label" for="">Email address</label>
+              <input type="email" id="" class="form-control" />
+            </div>
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class=" btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+          </div>
+          
+       </div>
+      </div>
+      <hr>
+      <div class="row py-2">
+        <div class="col-md-12 text-center">
+          <span class="fs-2 website-brand">ROBERT DELA PEÑA</span>
+          <p class="m-0">Copyright</p>
+        </div>
+        <div class="row py-2">
+          <div class="d-flex col justify-content-center">
+            <a href="" class="d-flex text-white me-4">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="" class="d-flex text-white me-4">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="" class="d-flex text-white me-4">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+           
+    </footer>
+  </div> 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+  <script>
+      AOS.init({
+   });
+  </script>
+</body>
+</html>
